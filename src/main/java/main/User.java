@@ -4,7 +4,15 @@ public class User {
 
     private Long id;
 
-    private String lastName;
+    public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	private String lastName;
 
     private String firstName;
 

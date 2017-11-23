@@ -2,7 +2,7 @@ package main;
 
 public class User {
 
-    public static Long id;
+    private Long id;
 
     private String lastName;
 
